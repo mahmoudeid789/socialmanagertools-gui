@@ -25,7 +25,7 @@
         "build-win": "electron-builder --dir --win portable",
         "build-lnx": "electron-builder --dir --linux deb",
         "lint": "eslint ./ --cache --ignore-pattern .gitignore --fix",
-        "postinstall": "electron-builder install-app-deps",
+        "postinstall": "electron-builder install-app-deps && opencollective-postinstall",
         "precommit-lint-check": "echo 'Pre-commit lint checks...' && exit 0"
     },
     "pre-commit": [
@@ -43,14 +43,16 @@
         "webdriverio"
     ],
     "dependencies": {
-        "puppeteer": "1.6.2",
-        "instagrambotlib": "latest",
-        "twitterbotlib": "latest",
         "electron-context-menu": "latest",
+        "instagrambotlib": "latest",
         "jquery": "latest",
         "json-token-replace": "latest",
+        "opencollective-postinstall": "^2.0.2",
         "path": "latest",
-        "sqlite3": "latest"
+        "puppeteer": "1.6.2",
+        "sqlite3": "latest",
+        "twitterbotlib": "latest",
+        "opencollective": "^1.0.3"
     },
     "engines": {
         "node": ">=7.6.0"
@@ -122,5 +124,9 @@
                 "AppImage"
             ]
         }
+    },
+    "collective": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/social-manager-tools"
     }
 }
