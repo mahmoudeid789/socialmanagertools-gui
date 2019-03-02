@@ -6,7 +6,7 @@
 
 [![](https://img.shields.io/badge/powered%20by-instagrambotlib-895a4d.svg)](https://github.com/social-manager-tools/instagram-bot-lib) [![](https://img.shields.io/badge/powered%20by-twitterbotlib-21B7F4.svg)](https://github.com/social-manager-tools/twitter-bot-lib) [![](https://img.shields.io/badge/powered%20by-facebookbotlib-3b5998.svg)](https://github.com/social-manager-tools/facebook-bot-lib)
 
-[![](https://img.shields.io/badge/donate-patreon-F87668.svg)](http://patreon.ptkdev.io) [![](https://img.shields.io/badge/donate-paypal-46AFE0.svg)](http://paypal.ptkdev.io) [![](https://img.shields.io/badge/buy%20me-coffee-4B788C.svg)](http://coffee.ptkdev.io)
+[![](https://img.shields.io/badge/donate-patreon-F87668.svg)](http://patreon.ptkdev.io) [![](https://img.shields.io/badge/donate-paypal-46AFE0.svg)](http://paypal.ptkdev.io) [![](https://img.shields.io/badge/buy%20me-coffee-4B788C.svg)](http://coffee.ptkdev.io) [![Backers on Open Collective](https://opencollective.com/social-manager-tools/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/social-manager-tools/sponsors/badge.svg)](#sponsors) 
 
 [![](https://ptkdev.it/img/bot/social-manager-tools.gif)](https://instagram.bot.ptkdev.io)
 
@@ -47,6 +47,36 @@ I love :snake: snake_case syntax sorry for this :sob: don't hate me.
 [FacebookBot.js](https://github.com/social-manager-tools/facebook-bot.js) ([LIB](https://github.com/social-manager-tools/facebook-bot-lib))  
 [WordpressTelegramBot.js](https://github.com/social-manager-tools/wordpress-telegram-bot.js) ([LIB](https://github.com/social-manager-tools/wordpress-telegram-bot-lib))  
 [MediumTelegramBot.js](https://github.com/social-manager-tools/medium-telegram-bot.js) ([LIB](https://github.com/social-manager-tools/medium-telegram-bot-lib))  
+
+## Contributors
+
+This project exists thanks to all the people who contribute. 
+<a href="https://github.com/social-manager-tools/social-manager-tools/graphs/contributors"><img src="https://opencollective.com/social-manager-tools/contributors.svg?width=890&button=false" /></a>
+
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/social-manager-tools#backer)]
+
+<a href="https://opencollective.com/social-manager-tools#backers" target="_blank"><img src="https://opencollective.com/social-manager-tools/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/social-manager-tools#sponsor)]
+
+<a href="https://opencollective.com/social-manager-tools/sponsor/0/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/1/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/2/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/3/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/4/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/5/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/6/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/7/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/8/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/9/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/9/avatar.svg"></a>
+
+
 
 # License
 
