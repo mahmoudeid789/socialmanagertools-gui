@@ -8,19 +8,20 @@ var logs_interval = null;
 $.ajaxSetup({ cache: false });
 
 function update_system() {
-    $.get("https://api.ptkdev.io/v1/bot/social-manager-tools/version/?time=" + new Date().getTime(), function(version) {
+    $.get("https://api.socialmanager.tools/v2/gui/version/?time=" + new Date().getTime(), function(json) {
+        let version = json.master.version;
         let current_version = require("../version").version;
-        let download_url = "https://socialmanagertools.ptkdev.io/";
+        let download_url = "https://socialmanager.tools/";
         if (process.platform === "linux") {
-            download_url = "https://github.com/social-manager-tools/social-manager-tools/releases/download/" + version + "/Social.Manager.Tools-" + version + ".deb";
+            download_url = "https://github.com/social-manager-tools/socialmanagertools-gui/releases/download/" + version + "/Social.Manager.Tools-" + version + ".deb";
         } else if (process.platform === "win32") {
-            download_url = "https://github.com/social-manager-tools/social-manager-tools/releases/download/" + version + "/Social.Manager.Tools-" + version + ".zip";
+            download_url = "https://github.com/social-manager-tools/socialmanagertools-gui/releases/download/" + version + "/Social.Manager.Tools-" + version + ".zip";
         } else if (process.platform === "darwin") {
-            download_url = "https://github.com/social-manager-tools/social-manager-tools/releases/download/" + version + "/Social.Manager.Tools-" + version + ".dmg";
+            download_url = "https://github.com/social-manager-tools/socialmanagertools-gui/releases/download/" + version + "/Social.Manager.Tools-" + version + ".dmg";
         }
 
         if (version != current_version) {
-            app.dialog.create({ title: "Update available", text: "Your app version is v" + current_version + ", is available v" + version + "<br /><br /><a href='" + download_url + "'>DOWNLOAD</a> | <a href='https://github.com/social-manager-tools/social-manager-tools/blob/master/CHANGELOG.md'>CHANGELOG</a>", buttons: [{ text: "OK" }] }).open();
+            app.dialog.create({ title: "Update available", text: "Your app version is v" + current_version + ", is available v" + version + "<br /><br /><a href='" + download_url + "'>DOWNLOAD</a> | <a href='https://github.com/social-manager-tools/socialmanagertools-gui/blob/master/CHANGELOG.md'>CHANGELOG</a>", buttons: [{ text: "OK" }] }).open();
         }
     });
 }
@@ -28,6 +29,6 @@ function update_system() {
 setInterval(function() {
     if(!$(".dialog")[0]) {
         update_system();
-    } 
-}, (43200 * 1000)); // 12h 
+    }
+}, (43200 * 1000)); // 12h
 update_system();
