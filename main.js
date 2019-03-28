@@ -98,7 +98,7 @@ app.on("activate", function() {
 
 exports.instagrambot_start = (json, id) => {
     let config = json;
-    let Bot = require("instagrambotlib");
+    let Bot = require("@social-manager-tools/igbot");
     let bot = new Bot(config);
     sessions[id] = bot;
     bot.start();
