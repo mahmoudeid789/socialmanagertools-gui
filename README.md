@@ -11,7 +11,9 @@
 ## 🎁 Support: Donate
 > This project is **free**, **open source** and I try to provide excellent support. Why donate? I work on this project 10 hours a week and in my spare time, I try to keep it up-to-date and working. I'm not going to charge the basic features but this can not be done without financial support. There are professional bots __closed source__ on the Internet and save your password on the cloud at a cost of 14€ per month and I not want you pay monthly the same amount but with a much smaller donation I can guarantee you systematic and continuous updates as well as offering all the assistance I can via email and in the "github issues". **THANK YOU!**
 
-[![](https://img.shields.io/badge/donate-paypal-005EA6.svg)](http://paypal.ptkdev.io) [![](https://img.shields.io/badge/donate-patreon-F87668.svg)](http://patreon.ptkdev.io) [![](https://img.shields.io/badge/donate-opencollective-5DA4F9.svg)](http://opencollective.ptkdev.io) [![](https://img.shields.io/badge/buy%20me-coffee-4B788C.svg)](http://coffee.ptkdev.io)
+[![](https://img.shields.io/badge/donate-opencollective-5DA4F9.svg)](http://opencollective.ptkdev.io) [![Backers on Open Collective](https://opencollective.com/social-manager-tools/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/social-manager-tools/sponsors/badge.svg)](#sponsors) 
+
+[![](https://img.shields.io/badge/donate-paypal-005EA6.svg)](http://paypal.ptkdev.io) [![](https://img.shields.io/badge/donate-patreon-F87668.svg)](http://patreon.ptkdev.io) [![](https://img.shields.io/badge/buy%20me-coffee-4B788C.svg)](http://coffee.ptkdev.io)
 
 ## 🔖 Screenshot
 [![](https://ptk.dev/img/bot/social-manager-tools.gif)](https://instagram.bot.ptkdev.io)
@@ -37,14 +39,30 @@
 7. If work add star :star: at this project :heart:
 8. If you want help me: **[donate on paypal](http://paypal.ptkdev.io)** or become a **[backer on patreon](http://patreon.ptkdev.io)**.
 
-### 🐍 Sorry for snake_case
+## 🐍 Sorry for snake_case
 I love snake_case syntax sorry for this 😭 don't hate me.
 
-### 🍻 Community
+## 🍻 Community
 [![](https://img.shields.io/badge/chat%20on-discord-7289da.svg)](http://discord.ptkdev.io) [![](https://img.shields.io/badge/chat%20on-slack-orange.svg)](http://slack.ptkdev.io)  [![](https://img.shields.io/badge/blog-medium-2AE176.svg)](http://blog.ptkdev.io) [![](https://img.shields.io/badge/twitter-socialmanagertools-2AA3EF.svg)](https://twitter.com/socialmanagertools)
 
-## 👑 Sponsor
-You want your logo here? See sponsor tier on [on patreon](http://patreon.ptkdev.io) (max 10 sponsors available)
+## 👑 Sponsors
+Support this project by becoming a sponsor (max 10 available). Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/social-manager-tools#sponsor)]
+
+<a href="https://opencollective.com/social-manager-tools/sponsor/0/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/1/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/2/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/3/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/4/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/5/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/6/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/7/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/8/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/social-manager-tools/sponsor/9/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/9/avatar.svg"></a>
+
+## Backers
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/social-manager-tools#backer)]
+
+<a href="https://opencollective.com/social-manager-tools#backers" target="_blank"><img src="https://opencollective.com/social-manager-tools/backers.svg?width=890"></a>
 
 ## 📲 Tools
 [![](https://img.shields.io/badge/app-social%20manager%20tools-ff7f19.svg)](http://socialmanager.tools/)
