@@ -10,7 +10,7 @@ license=('AGPLv3')
 install=${pkgname}.install
 
 source=('social-manager-tools.desktop')
-source_x86_64=("https://github.com/social-manager-tools/social-manager-tools/releases/download/0.6.2/Social.Manager.Tools-0.6.2.tar.gz")
+source_x86_64=("https://github.com/social-manager-tools/socialmanagertools-gui/releases/download/0.6.2/Social.Manager.Tools-0.6.2.tar.gz")
 
 sha256sums_x86_64=('1d7e972bd305ccfa23c7bf374c6a1eba0e9fa260e0dd9495f84d23f40422b63d')
 
@@ -29,5 +29,5 @@ package() {
   install -Dm644 "social-manager-tools.desktop" "${pkgdir}/usr/share/applications/social-manager-tools.desktop"
 
   install -dm755 "${pkgdir}/usr/bin"
-  ln -s "/opt/social-manager-tools/social-manager-tools" "${pkgdir}/usr/bin/social-manager-tools"
+  ln -s "/opt/social-manager-tools/socialmanagertools-gui" "${pkgdir}/usr/bin/social-manager-tools"
 }

@@ -1,17 +1,22 @@
+
 {
     "name": "social-manager-tools",
     "description": "Tools for social media managers",
-    "version": "0.6.2",
+    "version": "0.6.3",
     "main": "main.js",
-    "author": "Patryk Rzucidlo [@ptkdev] <support@ptkdev.io> (https://ptkdev.it)",
-    "license": "AGPL-3.0",
-    "homepage": "https://socialmanagertools.ptkdev.io",
+    "author": "Patryk Rzucidlo [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
+    "license": "MIT",
+    "homepage": "https://socialmanager.tools",
     "repository": {
         "type": "git",
-        "url": "https://github.com/social-manager-tools/social-manager-tools.git"
+        "url": "https://github.com/social-manager-tools/socialmanagertools-gui.git"
     },
     "bugs": {
-        "url": "https://github.com/social-manager-tools/social-manager-tools/issues"
+        "url": "https://github.com/social-manager-tools/socialmanagertools-gui/issues"
+    },
+    "collective": {
+        "type": "opencollective",
+        "url": "https://opencollective.com/social-manager-tools"
     },
     "scripts": {
         "start": "electron .",
@@ -43,22 +48,20 @@
         "webdriverio"
     ],
     "dependencies": {
+        "puppeteer": "1.12.2",
+        "@social-manager-tools/igbot": "latest",
+        "twitterbotlib": "latest",
         "electron-context-menu": "latest",
-        "instagrambotlib": "latest",
         "jquery": "latest",
         "json-token-replace": "latest",
-        "opencollective-postinstall": "^2.0.2",
         "path": "latest",
-        "puppeteer": "1.6.2",
-        "sqlite3": "latest",
-        "twitterbotlib": "latest",
-        "opencollective": "^1.0.3"
+        "sqlite3": "4.0.2"
     },
     "engines": {
         "node": ">=7.6.0"
     },
     "devDependencies": {
-        "electron": "latest",
+        "electron": "^2.0.0",
         "electron-builder": "latest",
         "electron-debug": "latest",
         "electron-devtools-installer": "latest",
@@ -70,7 +73,9 @@
         "eslint-plugin-promise": "latest",
         "eslint-plugin-snakecasejs": "latest",
         "eslint-plugin-standard": "latest",
-        "pre-commit": "latest"
+        "pre-commit": "latest",
+        "opencollective": "latest",
+        "opencollective-postinstall": "latest"
     },
     "build": {
         "productName": "Social Manager Tools",
@@ -124,9 +129,5 @@
                 "AppImage"
             ]
         }
-    },
-    "collective": {
-        "type": "opencollective",
-        "url": "https://opencollective.com/social-manager-tools"
     }
 }
