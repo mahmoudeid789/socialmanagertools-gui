@@ -2,7 +2,7 @@
 
 # 🤖 Social Manager Tools - Desktop App
 
-[![](https://img.shields.io/badge/version-v0.6.3-lightgrey.svg)](https://github.com/social-manager-tools/socialmanagertools-gui/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](#) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://img.shields.io/badge/powered%20by-puppeteer-46aef7.svg)](https://github.com/GoogleChrome/puppeteer) [![](https://snyk.io/test/npm/@social-manager-tools/gui/badge.svg)](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui)
+[![](https://img.shields.io/badge/version-v0.6.4-lightgrey.svg)](https://github.com/social-manager-tools/socialmanagertools-gui/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](#) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://img.shields.io/badge/powered%20by-puppeteer-46aef7.svg)](https://github.com/GoogleChrome/puppeteer) [![](https://snyk.io/test/npm/@social-manager-tools/gui/badge.svg)](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui)
 
 > This Desktop Application helps you increase the engagement level of your Social Network profiles through different social algorithms: increase the likes on your photos and followers!
 
@@ -38,23 +38,14 @@
 8. If you want help me: **[donate on paypal](http://paypal.ptkdev.io)** or become a **[backer on patreon](http://patreon.ptkdev.io)**.
 
 ## 👑 Sponsors (max 10 available)
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/social-manager-tools#sponsor)]
+Support this project by becoming a sponsor. 🙏 Become a sponsor on [patreon](http://patreon.ptkdev.io) or [opencollective](https://opencollective.com/social-manager-tools#sponsor). Your logo will show up here with a link to your website.
 
-<a href="https://opencollective.com/social-manager-tools/sponsor/0/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/social-manager-tools/sponsor/1/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/social-manager-tools/sponsor/2/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/social-manager-tools/sponsor/3/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/social-manager-tools/sponsor/4/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/social-manager-tools/sponsor/5/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/social-manager-tools/sponsor/6/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/social-manager-tools/sponsor/7/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/social-manager-tools/sponsor/8/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/social-manager-tools/sponsor/9/website" target="_blank"><img src="https://opencollective.com/social-manager-tools/sponsor/9/avatar.svg"></a>
+[![](https://opencollective.com/social-manager-tools/sponsor/0/avatar.svg)](https://opencollective.com/social-manager-tools/sponsor/0/website) [![](https://opencollective.com/social-manager-tools/sponsor/1/avatar.svg)](https://opencollective.com/social-manager-tools/sponsor/1/website) [![](https://opencollective.com/social-manager-tools/sponsor/2/avatar.svg)](https://opencollective.com/social-manager-tools/sponsor/2/website) [![](https://opencollective.com/social-manager-tools/sponsor/3/avatar.svg)](https://opencollective.com/social-manager-tools/sponsor/3/website) [![](https://opencollective.com/social-manager-tools/sponsor/4/avatar.svg)](https://opencollective.com/social-manager-tools/sponsor/4/website) [![](https://opencollective.com/social-manager-tools/sponsor/5/avatar.svg)](https://opencollective.com/social-manager-tools/sponsor/5/website) [![](https://opencollective.com/social-manager-tools/sponsor/6/avatar.svg)](https://opencollective.com/social-manager-tools/sponsor/6/website) [![](https://opencollective.com/social-manager-tools/sponsor/7/avatar.svg)](https://opencollective.com/social-manager-tools/sponsor/7/website) [![](https://opencollective.com/social-manager-tools/sponsor/8/avatar.svg)](https://opencollective.com/social-manager-tools/sponsor/8/website) [![](https://opencollective.com/social-manager-tools/sponsor/9/avatar.svg)](https://opencollective.com/social-manager-tools/sponsor/9/website)
 
 ## 🦄 Backers
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/social-manager-tools#backer)]
+Thank you to all our backers! 🙏 Become a backer on [patreon](http://patreon.ptkdev.io) or [opencollective](https://opencollective.com/social-manager-tools#sponsor)
 
-<a href="https://opencollective.com/social-manager-tools#backers" target="_blank"><img src="https://opencollective.com/social-manager-tools/backers.svg?width=890"></a>
+[![Twitch: prattquellolive](https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/patreon/prattquello.png)](https://www.twitch.tv/prattquellolive) [![](https://opencollective.com/social-manager-tools/backers.svg?width=890)](https://opencollective.com/social-manager-tools#backers)
 
 ## 🍻 Community
 [![](https://img.shields.io/badge/chat%20on-discord-7289da.svg)](http://discord.ptkdev.io) [![](https://img.shields.io/badge/chat%20on-slack-orange.svg)](http://slack.ptkdev.io)  [![](https://img.shields.io/badge/blog-medium-2AE176.svg)](http://blog.ptkdev.io) [![](https://img.shields.io/badge/twitter-socialmanagertools-2AA3EF.svg)](https://twitter.com/socialmanagertools)
