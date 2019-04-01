@@ -6,12 +6,33 @@
 
 > This Desktop Application helps you increase the engagement level of your Social Network profiles through different social algorithms: increase the likes on your photos and followers!
 
-> ⛔ **DISCLAIMER**: This is **unofficial** software without warranty! Assumes no responsibility in the event of account ban or any problem with your profile. Using bot on social networks does not respect the terms of service: use this software at your own risk. A "bot" is legal software but using a bot continuously violates the regulation of your account and you risks: __soft ban__ (like and follow restrictions daily) or __ban__ with suspension for a few days (or for life). All trademarks and logos belong to their respective owners.
+> ⛔ **DISCLAIMER**: This is an **unofficial** library and offers no warranty! The developers and contributors of the project do not assume any responsibility in case of ban of your account. Use bots does not comply with the social networks terms of the service: use this software at your own risk. A "bot" is legal software, but the use of a bot continuously violates the terms of use of Instagram and you risk a: __soft ban__ (such as limited actions or follow-up) or you risk __ban__ with suspension for a few days (or permanent). All trademarks and logos belong to their respective owners.
 
 ## 🎁 Support: Donate
-> This project is **free**, **open source** and I try to provide excellent support. Why donate? I work on this project 10 hours a week and in my spare time, I try to keep it up-to-date and working. I'm not going to charge the basic features but this can not be done without financial support. There are professional bots __closed source__ on the Internet and save your password on the cloud at a cost of 14€ per month and I not want you pay monthly the same amount but with a much smaller donation I can guarantee you systematic and continuous updates as well as offering all the assistance I can via email and in the "github issues". **THANK YOU!**
+> This project is **free**, **open source** and I try to provide excellent **free support**. Why donate? I work on this project several hours a week or in my spare time and try to keep it up to date and working. I do not intend to charge the basic features, but this cannot be done without your financial support, even small. There are professional bots with closed source on the Internet that save the password on the cloud for €14/month (for single social): we want to protect your password and offer you a better product than theirs. A lower donation would allow continuous development, ever better quality and the realization of this dream. **THANK YOU!**
 
-[![](https://img.shields.io/badge/donate-opencollective-5DA4F9.svg)](http://opencollective.ptkdev.io) [![Backers on Open Collective](https://opencollective.com/social-manager-tools/become%20a%20backer/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/social-manager-tools/become%20a%20sponsor/badge.svg)](#sponsors) [![](https://img.shields.io/badge/donate-paypal-005EA6.svg)](http://paypal.ptkdev.io) [![](https://img.shields.io/badge/donate-patreon-F87668.svg)](http://patreon.ptkdev.io) [![](https://img.shields.io/badge/buy%20me-coffee-4B788C.svg)](http://coffee.ptkdev.io)
+[![](https://img.shields.io/badge/donate-paypal-005EA6.svg)](http://paypal.ptkdev.io) [![](https://img.shields.io/badge/donate-patreon-F87668.svg)](http://patreon.ptkdev.io) [![](https://img.shields.io/badge/donate-opencollective-5DA4F9.svg)](http://opencollective.ptkdev.io) [![](https://img.shields.io/badge/buy%20me-coffee-4B788C.svg)](http://coffee.ptkdev.io)
+
+## 📎 Menu
+- 💡 [Features](#-features)
+- 💾 Installation:
+  - 👨‍💻 [Desktop App](http://docs.socialmanager.tools/gui/installation/README.md) (Windows, Linux, Mac)
+  - 🔨 [Cli](http://docs.socialmanager.tools/igbot/installation/source/README.md) (CLI / NPM Package)
+  - 🦀 [Raspberry PI](http://docs.socialmanager.tools/igbot/installation/raspberry/README.md) (Raspbian 9)
+  - 🐧 [Linux Server](http://docs.socialmanager.tools/igbot/installation/linux/README.md) (Debian 9 Server)
+  - 🐳 [Docker](http://docs.socialmanager.tools/igbot/installation/docker/README.md)
+- 🔑 Configs:
+  - 💿 [List of Mode](http://docs.socialmanager.tools/igbot/configs/modes/README.md)
+  - 📀 [How set Multi-account](http://docs.socialmanager.tools/igbot/configs/multiaccount/README.md)
+- 📚 [API Documentation](http://docs.socialmanager.tools/igbot/api/README.md) (How create your personal bot or mode)
+- 💻 [Developers Guidelines](http://docs.socialmanager.tools/developers/guidesline/README.md) (If you want contributing)
+- 🐛 [Known Bugs](https://github.com/social-manager-tools/socialmanagertools-igbot/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+- 🍻 Community:
+  - 🐦 [Telegram group](http://telegram.ptkdev.io)
+  - 🐔 [Discord](http://discord.ptkdev.io)
+  - 🐓 [Slack](http://slack.ptkdev.io)
+  - 🕊 [Medium](http://blog.ptkdev.io)
+  - 🐤 [Twitter](http://twitter.ptkdev.io)
 
 ## 🔖 Screenshot
 [![](https://ptk.dev/img/bot/social-manager-tools.gif)](https://instagram.bot.ptkdev.io)
@@ -23,7 +44,7 @@
 * [✘] GUI for [socialmanagertools-fbbot](https://github.com/social-manager-tools/socialmanagertools-fbbot) library.
 * [✘] GUI for [socialmanagertools-tgbot](https://github.com/social-manager-tools/socialmanagertools-tgbot) library.
 
-## 🔨 Fast Setup
+## 👨‍💻 Install app
 1. Download [stable version](https://socialmanager.tools) or see other [packages](https://github.com/social-manager-tools/socialmanagertools-gui/releases)
 2. Run installation.
 
@@ -46,9 +67,6 @@ Support this project by becoming a sponsor. 🙏 Become a sponsor on [patreon](h
 Thank you to all our backers! 🙏 Become a backer on [patreon](http://patreon.ptkdev.io) or [opencollective](https://opencollective.com/social-manager-tools#sponsor)
 
 [![Twitch: prattquellolive](https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/patreon/prattquello.png)](https://www.twitch.tv/prattquellolive) [![](https://opencollective.com/social-manager-tools/backers.svg?width=890)](https://opencollective.com/social-manager-tools#backers)
-
-## 🍻 Community
-[![](https://img.shields.io/badge/chat%20on-discord-7289da.svg)](http://discord.ptkdev.io) [![](https://img.shields.io/badge/chat%20on-slack-orange.svg)](http://slack.ptkdev.io)  [![](https://img.shields.io/badge/blog-medium-2AE176.svg)](http://blog.ptkdev.io) [![](https://img.shields.io/badge/twitter-socialmanagertools-2AA3EF.svg)](https://twitter.com/socialmanagertools)
 
 ## 📲 Tools
 [![](https://img.shields.io/badge/app-social%20manager%20tools-ff7f19.svg)](http://socialmanager.tools/)
