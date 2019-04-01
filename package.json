@@ -1,7 +1,7 @@
 {
     "name": "social-manager-tools",
     "description": "Tools for social media managers",
-    "version": "0.6.3",
+    "version": "0.6.4",
     "main": "main.js",
     "author": "Patryk Rzucidlo [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
     "license": "MIT",
@@ -43,7 +43,7 @@
         "webdriverio"
     ],
     "dependencies": {
-        "puppeteer": "1.12.2",
+        "puppeteer": "1.11.0",
         "@social-manager-tools/igbot": "latest",
         "twitterbotlib": "latest",
         "electron-context-menu": "latest",

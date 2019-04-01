@@ -1,3 +1,11 @@
+# v0.6.4 (April 01, 2019)
+> Update: [socialmanagertools-igbot v0.9.13](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
+* Fix: `waiting for selector "article div a:nth-child(1)" failed: timeout 30000ms exceeded` happen when photo don't exist or are removed, now skip faster (3sec)
+* Fix: docker curl package missing
+* Fix: docker permissions
+* Fix: README.md misprint
+
+
 # v0.6.3 (March 28, 2019)
 > Update: [socialmanagertools-igbot v0.9.11](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * New: `instagrambotlib` and `instagram-bot.js` now is `socialmanagertools-igbot`
