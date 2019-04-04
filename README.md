@@ -2,7 +2,7 @@
 
 # 🤖 Social Manager Tools - Desktop App
 
-[![](https://img.shields.io/badge/version-v0.6.4-lightgrey.svg)](https://github.com/social-manager-tools/socialmanagertools-gui/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](#) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://img.shields.io/badge/powered%20by-puppeteer-46aef7.svg)](https://github.com/GoogleChrome/puppeteer) [![](https://snyk.io/test/npm/@social-manager-tools/gui/badge.svg)](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui)
+[![](https://img.shields.io/badge/version-v0.6.4-lightgrey.svg)](https://github.com/social-manager-tools/socialmanagertools-gui/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](#) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://img.shields.io/badge/powered%20by-puppeteer-46aef7.svg)](https://github.com/GoogleChrome/puppeteer) [![](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui/badge.svg)](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui)
 
 > This Desktop Application helps you increase the engagement level of your Social Network profiles through different social algorithms: increase the likes on your photos and followers!
 
@@ -26,7 +26,7 @@
   - 📀 [How set Multi-account](http://docs.socialmanager.tools/igbot/configs/multiaccount/README.md)
 - 📚 [API Documentation](http://docs.socialmanager.tools/igbot/api/README.md) (How create your personal bot or mode)
 - 💻 [Developers Guidelines](http://docs.socialmanager.tools/developers/guidesline/README.md) (If you want contributing)
-- 🐛 [Known Bugs](https://github.com/social-manager-tools/socialmanagertools-igbot/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+- 🐛 [Known Bugs](https://github.com/social-manager-tools/socialmanagertools-gui/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 - 🍻 Community:
   - 🐦 [Telegram group](http://telegram.ptkdev.io)
   - 🐔 [Discord](http://discord.ptkdev.io)
