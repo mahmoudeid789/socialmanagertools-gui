@@ -14,7 +14,9 @@ function instagram_get_user_form() {
     let tokens = {};
     tokens.instagram_username = $("#instagram_username").val();
     tokens.instagram_username = tokens.instagram_username.replace(/@/g, "");
-    tokens.instagram_password = $("#instagram_password").val();
+    let instagram_password =  $("#instagram_password").val();
+    instagram_password = replace_special_chars(instagram_password);
+    tokens.instagram_password = instagram_password;
     tokens.instagram_hashtag = $("#instagram_hashtag").val();
     tokens.bot_mode = $("#bot_mode").val();
     tokens.executable_path = $("#executable_path").val();
@@ -345,3 +347,9 @@ function instagram_check_comment_mode() {
     return 1;
 }
 
+function replace_special_chars(string) {
+    // Replace double quotes with : backslash + double quotes for the JSON
+    string = string.replace(/"/g, "\\\"");
+
+    return string;
+}
