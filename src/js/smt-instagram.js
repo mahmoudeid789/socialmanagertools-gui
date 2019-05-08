@@ -270,7 +270,13 @@ function instagram_check_superlike_n() {
 }
 
 function instagram_check_max_like() {
-    if ($("#bot_mode").val() == "likemode_superlike" && (parseInt($("#bot_superlike_n").val() * $("#bot_likeday_max").val()) >= 1000)) {
+    if ($("#bot_likeday_max").val() != "" && parseInt($("#bot_likeday_max").val()) <= 100) {
+        $("#bot_likeday_max").val(101);
+
+        app.dialog.create({ title: "Warning", text: "Max like/day should be greater than 100 (Min 101). App restore min value.", buttons: [{ text: "OK" }] }).open();
+
+        return 1;
+    } else if ($("#bot_mode").val() == "likemode_superlike" && (parseInt($("#bot_superlike_n").val() * $("#bot_likeday_max").val()) >= 1000)) {
         app.dialog.create({ title: "Warning", text: $("#bot_superlike_n").val() + "x" + $("#bot_likeday_max").val() + "= is more than 1000 like/day. App restore default value.", buttons: [{ text: "OK" }] }).open();
 
         $("#bot_superlike_n").val(3);
