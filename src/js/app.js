@@ -12,12 +12,14 @@ var app = new Framework7({
     routes: routes
 });
 
-let shell = require("electron").shell;
-document.addEventListener("click", function(event) {
-    if (event.target.tagName === "A" && (event.target.href.startsWith("http") || event.target.href.startsWith("mailto"))) {
-        event.preventDefault();
-        shell.openExternal(event.target.href);
-    }
-});
+
 
 var $ = require("jquery");
+
+const shell = require("electron").shell;
+
+// assuming $ is jQuery
+$(document).on("click", "a[href^=\"http\"]", function(event) {
+    event.preventDefault();
+    shell.openExternal(this.href);
+});
