@@ -1,3 +1,21 @@
+# v0.6.5 (May 15, 2019)
+> Update: [socialmanagertools-igbot v0.9.17](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
+* Perfomance: better, i tried fix lag of ui
+* Upgrade: electron 5
+* Upgrade: puppeteer 1.13.0
+* Fix: password with double quotes #54
+* Fix: min like/day #58
+* Fix: waiting for selector failed: timeout 5000ms exceeded (mac only)
+* Fix: Can't launch Chrome if SMT is running #38 (mac only - beta fix)
+* Fix: minimize (linux gnome only - beta fix)
+* Fix: if try open link on smt, popup and drawer go to close
+* Fix: mac chrome open issue
+* New: windows 32bit build
+* New: community! Telegram and Discord
+* New: patreon benefits!
+* New: contributors to README.md
+
+
 # v0.6.4 (April 01, 2019)
 > Update: [socialmanagertools-igbot v0.9.14](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Fix: `waiting for selector "article div a:nth-child(1)" failed: timeout 30000ms exceeded` happen when photo don't exist or are removed, now skip faster (3sec)

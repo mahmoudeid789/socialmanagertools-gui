@@ -1,8 +1,7 @@
-
 {
     "name": "social-manager-tools",
     "description": "Tools for social media managers",
-    "version": "0.6.4",
+    "version": "0.6.5",
     "main": "main.js",
     "author": "Patryk Rzucidlo [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
     "license": "MIT",
@@ -28,9 +27,11 @@
         "build-fix": "./node_modules/.bin/electron-rebuild -w sqlite3 -p",
         "build-mac": "electron-builder --dir --mac dmg",
         "build-win": "electron-builder --dir --win portable",
+        "build-win-32bit": "electron-builder --dir --win portable --ia32",
         "build-lnx": "electron-builder --dir --linux deb",
         "lint": "eslint ./ --cache --ignore-pattern .gitignore --fix",
-        "postinstall": "electron-builder install-app-deps && opencollective-postinstall",
+        "contributors-generate": "all-contributors generate",
+        "postinstall": "electron-builder install-app-deps && npm run contributors-generate && opencollective-postinstall",
         "precommit-lint-check": "echo 'Pre-commit lint checks...' && exit 0"
     },
     "pre-commit": [
@@ -48,7 +49,6 @@
         "webdriverio"
     ],
     "dependencies": {
-        "puppeteer": "1.11.0",
         "@social-manager-tools/igbot": "latest",
         "twitterbotlib": "latest",
         "electron-context-menu": "latest",
@@ -61,7 +61,7 @@
         "node": ">=7.6.0"
     },
     "devDependencies": {
-        "electron": "^2.0.0",
+        "electron": "^4.0.0",
         "electron-builder": "latest",
         "electron-debug": "latest",
         "electron-devtools-installer": "latest",
@@ -74,6 +74,7 @@
         "eslint-plugin-snakecasejs": "latest",
         "eslint-plugin-standard": "latest",
         "pre-commit": "latest",
+        "all-contributors-cli": "latest",
         "opencollective": "latest",
         "opencollective-postinstall": "latest"
     },

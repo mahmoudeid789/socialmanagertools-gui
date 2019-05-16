@@ -1,3 +1,7 @@
+body {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
 @font-face {
     font-family: 'Material Icons';
     font-style: normal;
@@ -111,6 +115,14 @@
 
 .icon-paypal{
     background-image: url("../img/icons/paypal.webp");
+}
+
+.icon-discord{
+    background-image: url("../img/icons/discord.png");
+}
+
+.icon-telegram{
+    background-image: url("../img/icons/telegram.png");
 }
 
 .icon-coffee{

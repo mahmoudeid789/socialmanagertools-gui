@@ -2,11 +2,11 @@
 
 # 🤖 Social Manager Tools - Desktop App
 
-[![](https://img.shields.io/badge/version-v0.6.4-lightgrey.svg)](https://github.com/social-manager-tools/socialmanagertools-gui/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](#) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://img.shields.io/badge/powered%20by-puppeteer-46aef7.svg)](https://github.com/GoogleChrome/puppeteer) [![](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui/badge.svg)](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui)
+[![](https://img.shields.io/badge/version-v0.6.5-lightgrey.svg)](https://github.com/social-manager-tools/socialmanagertools-gui/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](#) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://img.shields.io/badge/powered%20by-puppeteer-46aef7.svg)](https://github.com/GoogleChrome/puppeteer) [![](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui/badge.svg)](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui)
 
 > This Desktop Application helps you increase the engagement level of your Social Network profiles through different social algorithms: increase the likes on your photos and followers!
 
-> ⛔ **DISCLAIMER**: This is an **unofficial** library and offers no warranty! The developers and contributors of the project do not assume any responsibility in case of ban of your account. Use bots does not comply with the social networks terms of the service: use this software at your own risk. A "bot" is legal software, but the use of a bot continuously violates the terms of use of Instagram and you risk a: __soft ban__ (such as limited actions or follow-up) or you risk __ban__ with suspension for a few days (or permanent). All trademarks and logos belong to their respective owners.
+> ⛔ **DISCLAIMER**: This is an **unofficial** library and offers no warranty! The developers and contributors of the project do not assume any responsibility in case of ban of your account. Use bots does not comply with the social networks terms of the service: use this software at your own risk. A "bot" is legal software, but the use of a bot continuously violates the terms of use of Instagram, Twitter and other social and you risk a: __soft ban__ (such as limited actions or follow-up) or you risk __ban__ with suspension for a few days (or permanent). All trademarks and logos belong to their respective owners.
 
 ## 🎁 Support: Donate
 > This project is **free**, **open source** and I try to provide excellent **free support**. Why donate? I work on this project several hours a week or in my spare time and try to keep it up to date and working. I do not intend to charge the basic features, but this cannot be done without your financial support, even small. There are professional bots with closed source on the Internet that save the password on the cloud for €14/month (for single social): we want to protect your password and offer you a better product than theirs. A lower donation would allow continuous development, ever better quality and the realization of this dream. **THANK YOU!**
@@ -67,6 +67,19 @@ Support this project by becoming a sponsor. 🙏 Become a sponsor on [patreon](h
 Thank you to all our backers! 🙏 Become a backer on [patreon](http://patreon.ptkdev.io) or [opencollective](https://opencollective.com/social-manager-tools#sponsor)
 
 [![Twitch: prattquellolive](https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/patreon/prattquello.png)](https://www.twitch.tv/prattquellolive) [![](https://opencollective.com/social-manager-tools/backers.svg?width=890)](https://opencollective.com/social-manager-tools#backers)
+
+## ❤️ Contributing
+I 💟 contributions! I will happily accept your pull request! Translations, grammatical corrections (GrammarNazi you are welcome! Yes my English is bad, sorry), new modes, best css selectors, fix and new feature! Read [Developers Guidelines](http://docs.socialmanager.tools/developers/guidesline/README.md) for best practices. Do not be afraid, if the code is not perfect we will work together 👯 and remember to insert your name in `.all-contributorsrc` and `package.json` file.
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4" width="100px;" alt="Patryk Rzucidło"/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-gui/commits?author=ptkdev" title="Code">💻</a></td><td align="center"><a href="https://twitter.com/maxfer75"><img src="https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/avatar/maxfer75.jpg" width="100px;" alt="MaXfer "/><br /><sub><b>MaXfer </b></sub></a><br /><a href="#design-maxfer75" title="Design">🎨</a></td><td align="center"><a href="https://twitter.com/tanik72"><img src="https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/avatar/tanik72.jpg" width="100px;" alt="Tanik"/><br /><sub><b>Tanik</b></sub></a><br /><a href="#design-TaniK72" title="Design">🎨</a></td><td align="center"><a href="https://github.com/Gaudo"><img src="https://avatars1.githubusercontent.com/u/708636?v=4" width="100px;" alt="Francesco Gaudenzi"/><br /><sub><b>Francesco Gaudenzi</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-gui/commits?author=Gaudo" title="Code">💻</a></td><td align="center"><a href="https://github.com/NicolaCorvo90"><img src="https://avatars1.githubusercontent.com/u/17699027?v=4" width="100px;" alt="Nicola Corvo"/><br /><sub><b>Nicola Corvo</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-gui/commits?author=NicolaCorvo90" title="Code">💻</a> <a href="https://github.com/ptkdev/socialmanagertools-gui/issues?q=author%3ANicolaCorvo90" title="Bug reports">🐛</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+> 💰 In the future, if the donations allow it, I would like to share some of the success with those who helped me the most. For me open source is share of code, share development knowledges and share donations!
 
 ## 📲 Tools
 [![](https://img.shields.io/badge/app-social%20manager%20tools-ff7f19.svg)](http://socialmanager.tools/)
