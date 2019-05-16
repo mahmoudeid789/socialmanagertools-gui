@@ -2,7 +2,7 @@
     "env":
     {
         "browser": true,
-        "es6": true,
+        "es6": false,
         "node": true,
         "jquery": true
     },
@@ -36,6 +36,8 @@
             "error",
             "always"
         ],
+        "no-unused-vars": "off",
+        "no-undef": "off",
         "no-console": [
             "warn"
         ],
@@ -48,6 +50,6 @@
             "allowSingleLine": false
         }],
         "snakecasejs/snakecasejs": "warn",
-        "snakecasejs/whitelist": ["BrowserWindow"]
+        "snakecasejs/whitelist": ["BrowserWindow", "webPreferences", "enableRemoteModule", "nodeIntegration"]
     }
 }

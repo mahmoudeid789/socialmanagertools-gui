@@ -1,4 +1,5 @@
 
+
 function twitterbot_start(json) {
     const main = require("electron").remote.require("./main");
     main.twitterbot_start(json);
@@ -123,7 +124,7 @@ function twitter_save_config(bot) {
 
             fs.exists($("#executable_path").val(), function(exists) {
                 if (exists) {
-                    app.dialog.create({ title: "Status", text: "Bot started...<br /><br />How check if work: check your like timeline in profile<br /><br />Bot like/rt tweets for you :D", buttons: [{ text: "OK" }] }).open();
+                    app.dialog.create({ title: "Status", text: "Bot started...<br />" + donatehtml, buttons: [{ text: "OK" }] }).open();
                     list_actived_bot[tokens.twitter_username + "_" + tokens.bot_mode] = true;
                     twitterbot_start(json);
                 } else {

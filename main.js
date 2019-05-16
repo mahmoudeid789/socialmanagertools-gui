@@ -26,7 +26,11 @@ function create_window() {
         width: 1024,
         height: 768,
         title: "Social Manager Tools",
-        icon: path.join(__dirname, "/src/img/smt_logo.png")
+        icon: path.join(__dirname, "/src/img/smt_logo.png"),
+        webPreferences: {
+            enableRemoteModule: true,
+            nodeIntegration: true
+        }
     });
 
     if (process.platform == "win32") {

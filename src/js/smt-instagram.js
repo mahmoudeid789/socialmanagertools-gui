@@ -1,3 +1,5 @@
+
+
 function instagrambot_start(json, id) {
     const main = require("electron").remote.require("./main");
     main.instagrambot_start(json, id);
@@ -7,7 +9,7 @@ function instagrambot_stop(id) {
     delete list_actived_bot[id];
     const main = require("electron").remote.require("./main");
     main.instagrambot_stop(id);
-    app.dialog.create({ title: "Status", text: "Stopped...", buttons: [{ text: "OK" }] }).open();
+    app.dialog.create({ title: "Status", text: "Stopped...<br />" + donatehtml, buttons: [{ text: "OK" }] }).open();
 }
 
 function instagram_get_user_form() {
@@ -15,6 +17,7 @@ function instagram_get_user_form() {
     tokens.instagram_username = $("#instagram_username").val();
     tokens.instagram_username = tokens.instagram_username.replace(/@/g, "");
     tokens.instagram_password = $("#instagram_password").val();
+    tokens.instagram_password = tokens.instagram_password.replace(/"/g, "\\\"");
     tokens.instagram_hashtag = $("#instagram_hashtag").val();
     tokens.bot_mode = $("#bot_mode").val();
     tokens.executable_path = $("#executable_path").val();
@@ -173,7 +176,7 @@ function instagram_save_config(bot) {
 
             fs.exists($("#executable_path").val(), function(exists) {
                 if (exists) {
-                    app.dialog.create({ title: "Status", text: "Bot started...<br /><br />Example how check if work: wait 2min after start, open instagram app, go to settings, click on: Post you've liked. Alternative: click on LOGS button.<br /><br />Bot work for you :D", buttons: [{ text: "OK" }] }).open();
+                    app.dialog.create({ title: "Status", text: "Bot started...<br />" + donatehtml, buttons: [{ text: "OK" }] }).open();
                     let id = tokens.instagram_username+"_"+tokens.bot_mode;
                     list_actived_bot[id] = true;
                     instagrambot_start(json, id);
@@ -246,7 +249,7 @@ function instagram_check_bot_mode() {
         $(".bot_mode_desc").html("Bot go to random hashtag from list, follow 30 users fast at 31 defollow first followed (number 1), follow 32, defollow number 2, in loop.");
         $(".likemode_all").hide();
         $("#bot_superlike_n").val(3);
-        
+
         $(".fdfmode_classic").show();
     }
 }
@@ -269,7 +272,13 @@ function instagram_check_superlike_n() {
 }
 
 function instagram_check_max_like() {
-    if ($("#bot_mode").val() == "likemode_superlike" && (parseInt($("#bot_superlike_n").val() * $("#bot_likeday_max").val()) >= 1000)) {
+    if ($("#bot_likeday_max").val() != "" && parseInt($("#bot_likeday_max").val()) <= 100) {
+        $("#bot_likeday_max").val(101);
+
+        app.dialog.create({ title: "Warning", text: "Max like/day should be greater than 100 (Min 101). App restore min value.", buttons: [{ text: "OK" }] }).open();
+
+        return 1;
+    } else if ($("#bot_mode").val() == "likemode_superlike" && (parseInt($("#bot_superlike_n").val() * $("#bot_likeday_max").val()) >= 1000)) {
         app.dialog.create({ title: "Warning", text: $("#bot_superlike_n").val() + "x" + $("#bot_likeday_max").val() + "= is more than 1000 like/day. App restore default value.", buttons: [{ text: "OK" }] }).open();
 
         $("#bot_superlike_n").val(3);
@@ -344,4 +353,3 @@ function instagram_check_userwhitelist() {
 function instagram_check_comment_mode() {
     return 1;
 }
-
