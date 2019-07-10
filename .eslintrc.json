@@ -15,6 +15,9 @@
     "plugins": [
         "snakecasejs"
     ],
+    "settings": {
+        "snakecasejs/whitelist": ["BrowserWindow", "webPreferences", "enableRemoteModule", "nodeIntegration"]
+    },
     "rules":
     {
         "indent": [
@@ -44,12 +47,12 @@
         "no-constant-condition": [
             "warn"
         ],
+        "require-atomic-updates": "warn",
         "curly": ["error", "all"],
         "brace-style": ["error", "1tbs",
         {
             "allowSingleLine": false
         }],
-        "snakecasejs/snakecasejs": "warn",
-        "snakecasejs/whitelist": ["BrowserWindow", "webPreferences", "enableRemoteModule", "nodeIntegration"]
+        "snakecasejs/snakecasejs": "warn"
     }
 }

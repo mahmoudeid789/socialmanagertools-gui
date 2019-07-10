@@ -122,7 +122,7 @@ function instagram_check_form() {
     } else if ($("#instagram_password").val() == "" && check_err == 0) {
         app.dialog.create({ title: "Warning", text: "Password is empty", buttons: [{ text: "OK" }] }).open();
         check_err++;
-    } else if ($("#instagram_hashtag").val() == "" && $("#bot_mode").val() != "bot_likemode_competitor_users" && check_err == 0) {
+    } else if ($("#instagram_hashtag").val() == "" && $("#bot_mode").val() != "likemode_competitor_users" && check_err == 0) {
         app.dialog.create({ title: "Warning", text: "Hashtag list is empty", buttons: [{ text: "OK" }] }).open();
         check_err++;
     } else if ($("#bot_likeday_max").val() == "" && $("#bot_mode").val() != "fdfmode_classic" && $("#bot_mode").val() != "comment_mode" && check_err == 0) {
