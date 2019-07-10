@@ -1,3 +1,8 @@
+# v0.6.6 (July 10, 2019)
+> Update: [socialmanagertools-igbot v0.9.18](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
+* Fix: UI issues.
+
+
 # v0.6.5 (May 15, 2019)
 > Update: [socialmanagertools-igbot v0.9.17](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Perfomance: better, i tried fix lag of ui
