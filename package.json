@@ -1,7 +1,7 @@
 {
     "name": "social-manager-tools",
     "description": "Tools for social media managers",
-    "version": "0.6.5",
+    "version": "0.6.6",
     "main": "main.js",
     "author": "Patryk Rzucidlo [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
     "license": "MIT",
@@ -55,7 +55,7 @@
         "jquery": "latest",
         "json-token-replace": "latest",
         "path": "latest",
-        "sqlite3": "4.0.2"
+        "sqlite3": "latest"
     },
     "engines": {
         "node": ">=7.6.0"
