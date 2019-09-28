@@ -33,6 +33,8 @@ function create_window() {
         }
     });
 
+    main_window.setMenu(null);
+
     if (process.platform == "win32") {
         app_icon = new Tray(path.join(__dirname, "/src/img/smt_logo.ico"));
     } else if (process.platform != "darwin") {
@@ -41,6 +43,16 @@ function create_window() {
 
     if (process.platform != "darwin") {
         context_menu = Menu.buildFromTemplate([{
+            label: "Open",
+            click: function() {
+                if (main_window.isVisible()) {
+                    main_window.hide();
+                } else {
+                    main_window.show();
+                }
+            }
+        },
+        {
             label: "Quit",
             click: function() {
                 app.isQuiting = true;
@@ -64,10 +76,6 @@ function create_window() {
         main_window.on("minimize", function(event) {
             event.preventDefault();
             main_window.hide();
-        });
-
-        main_window.on("show", function() {
-            app_icon.setHighlightMode("always");
         });
 
         app_icon.setContextMenu(context_menu);
