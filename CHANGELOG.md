@@ -1,9 +1,16 @@
-# v0.6.6 (July 10, 2019)
+# v0.6.6 (10 September 2019)
+> Update: [socialmanagertools-igbot v0.9.19](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
+* Upgrade: puppeteer 1.19.0 (chrome v77 required)
+* Upgrade: electron to v6
+* Fix: UI issues (Show button on try icon)
+
+
+# v0.6.6 (10 July 2019)
 > Update: [socialmanagertools-igbot v0.9.18](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Fix: UI issues.
 
 
-# v0.6.5 (May 15, 2019)
+# v0.6.5 (15 May 2019)
 > Update: [socialmanagertools-igbot v0.9.17](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Perfomance: better, i tried fix lag of ui
 * Upgrade: electron 5
@@ -21,7 +28,7 @@
 * New: contributors to README.md
 
 
-# v0.6.4 (April 01, 2019)
+# v0.6.4 (01 April 2019)
 > Update: [socialmanagertools-igbot v0.9.14](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Fix: `waiting for selector "article div a:nth-child(1)" failed: timeout 30000ms exceeded` happen when photo don't exist or are removed, now skip faster (3sec)
 * Fix: docker curl package missing
@@ -30,7 +37,7 @@
 * Downgrade: puppeteer v1.11.0
 
 
-# v0.6.3 (March 28, 2019)
+# v0.6.3 (28 March 2019)
 > Update: [socialmanagertools-igbot v0.9.11](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * New: `instagrambotlib` and `instagram-bot.js` now is `socialmanagertools-igbot`
 * New: npm package org: `npm install @social-manager-tools/igbot`
@@ -41,7 +48,7 @@
 * Upgrade: puppeteer v1.12.2
 
 
-# v0.6.2 (November 28, 2018)
+# v0.6.2 (28 November 2018)
 > Update: [socialmanagertools-igbot v0.9.10](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Developers: [Guidelines](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/nightly/DEV_GUIDELINES.md) for contributing at project.
 * Test: add mocha and chai
@@ -49,7 +56,7 @@
 * Upgrade: puppeteer v1.7.0
 
 
-# v0.6.1 (October 16, 2018)
+# v0.6.1 (16 October 2018)
 > Fix: [socialmanager-gui](https://github.com/social-manager-tools/socialmanagertools-gui/), changelog:
 * Fix: Wrong instructions on where to find Post you've liked #41
 > Update: [socialmanagertools-igbot v0.9.9](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
@@ -58,7 +65,7 @@
 * Fix: Close button (ui)
 * Fix: lose connection bot stop, now retry work.
 
-# v0.6.0 (October 14, 2018)
+# v0.6.0 (14 October 2018)
 > Fix: [socialmanager-gui](https://github.com/social-manager-tools/socialmanagertools-gui/), changelog:
 * Fix: bot remove space in comment_mode (socialmanagertools-igbot)
 > Update: [socialmanagertools-igbot v0.9.8](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
@@ -68,13 +75,13 @@
 * Update: all library of package.json
 
 
-# v0.5.6 (October 05, 2018)
+# v0.5.6 (05 October 2018)
 > Update: [socialmanagertools-igbot v0.9.6](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Fix: login random don't work
 * Fix: fdfmode_classic #42
 
 
-# v0.5.5 (October 02, 2018)
+# v0.5.5 (02 October 2018)
 > Update: [socialmanagertools-igbot v0.9.5](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Fix: likemode_classic new instagram selectors
 * Fix: likemode_realistic new instagram selectors
@@ -87,30 +94,30 @@
 * Fix: Startup error
 
 
-# v0.5.4 (September 26, 2018)
+# v0.5.4 (26 September 2018)
 * Update: [socialmanagertools-igbot v0.9.4](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md)
 * Update: [socialmanagertools-twbot v0.2.4](https://github.com/social-manager-tools/socialmanagertools-twbot/blob/master/CHANGELOG.md)
 
 
-# v0.5.3 (September 22, 2018)
+# v0.5.3 (22 September 2018)
 * Update: [socialmanagertools-igbot v0.9.3](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md)
 * Fix: various misprint and minor bug
 * Feature: stop button work (instagrambot)
 
 
-# v0.5.2 (September 15, 2018)
+# v0.5.2 (15 September 2018)
 * Update: [socialmanagertools-igbot v0.9.2](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md)
 * Update: [socialmanagertools-twbot v0.2.3](https://github.com/social-manager-tools/socialmanagertools-twbot/blob/master/CHANGELOG.md)
 
 
-# v0.5.1 (September 15, 2018)
+# v0.5.1 (15 September 2018)
 * Fix: in fdfmode_classic wrong check and bad alert
 * Fix: clean log button after restart bot
 * Update: [socialmanagertools-igbot v0.9.1](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md)
 * Update: [socialmanagertools-twbot v0.2.2](https://github.com/social-manager-tools/socialmanagertools-twbot/blob/master/CHANGELOG.md)
 
 
-# v0.5.0 (September 12, 2018)
+# v0.5.0 (12 September 2018)
 * Feature (instagram): fdfmode_classic
 * Feature (instagram): comment_mode
 * Feature (instagram): likemode_competitor_users
@@ -119,7 +126,7 @@
 * Update: [socialmanagertools-twbot v0.2.1](https://github.com/social-manager-tools/socialmanagertools-twbot/blob/master/CHANGELOG.md)
 
 
-# v0.4.2 (July 31, 2018)
+# v0.4.2 (31 July 2018)
 * Feature: icons png to webp
 * Fix: multiple popup of update message
 * Update: [socialmanagertools-igbot v0.8.2](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md)
@@ -129,11 +136,11 @@
 * Coming Soon: Telegram for Medium v0.1.0
 
 
-# v0.4.1 (July 23, 2018)
+# v0.4.1 (23 July 2018)
 * Fix: missing build default config (twitterbot)
 
 
-# v0.4.0 (July 23, 2018)
+# v0.4.0 (23 July 2018)
 * Fix: On macOS close button don't close app
 * Feature: TwitterBot v0.1.0
 * Feature: likemode_realistic (twitterbot)
@@ -141,7 +148,7 @@
 * Feature: 2FA Support (twitterbot)
 
 
-# v0.3.1 (July 11, 2018)
+# v0.3.1 (11 July 2018)
 
 * Fix: download url for update app
 * Fix: likemode_superlike timeout error
@@ -150,7 +157,7 @@
 * Removed: tray icon on mac xos
 
 
-# v0.3.0 (July 09, 2018)
+# v0.3.0 (09 July 2018)
 
 * Feature: tray icon
 * Feature: icons on menu near labels
@@ -163,7 +170,7 @@
 * Coming Soon: TwitterBot v0.1.0
 
 
-# v0.2.2 (July 03, 2018)
+# v0.2.2 (03 July 2018)
 
 * Update: socialmanagertools-igbot v0.7.5
 * Fix: Update system
@@ -172,13 +179,13 @@
 * Fix: Random, bot insert more than 900 like/day
 
 
-# v0.2.1 (June 29, 2018)
+# v0.2.1 (29 June 2018)
 
 * Feature: New UI
 * Feature: Multi account
 * Update: InstagramBot v0.7.4
 
 
-# v0.1.0 BETA (March 19, 2018)
+# v0.1.0 BETA (19 March 2018)
 
 * First Release

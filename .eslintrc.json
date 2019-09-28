@@ -16,7 +16,8 @@
         "snakecasejs"
     ],
     "settings": {
-        "snakecasejs/whitelist": ["BrowserWindow", "webPreferences", "enableRemoteModule", "nodeIntegration"]
+        "snakecasejs/whitelist": ["BrowserWindow", "webPreferences", "enableRemoteModule", "nodeIntegration"],
+        "snakecasejs/snakecasejs": "warn"
     },
     "rules":
     {
@@ -52,7 +53,6 @@
         "brace-style": ["error", "1tbs",
         {
             "allowSingleLine": false
-        }],
-        "snakecasejs/snakecasejs": "warn"
+        }]
     }
 }
