@@ -1,7 +1,9 @@
-# v0.6.6 (10 September 2019)
+# v0.6.7 (28 September 2019)
 > Update: [socialmanagertools-igbot v0.9.19](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Upgrade: puppeteer 1.19.0 (chrome v77 required)
 * Upgrade: electron to v6
+* Package: different deb file for Ubuntu/Debian
+* Package: windows 10 build now has installer
 * Fix: UI issues (Show button on try icon)
 
 
