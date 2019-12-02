@@ -27,6 +27,10 @@ function instagram_get_user_form() {
 
     tokens.bot_likeday_min = parseInt($("#bot_likeday_max").val() - 100);
     tokens.bot_likeday_max = $("#bot_likeday_max").val();
+    if(tokens.bot_likeday_min <= 100){
+        tokens.bot_likeday_min = 120;
+        tokens.bot_likeday_max = 150;
+    }
 
     tokens.bot_followday = $("#bot_followday").val();
     tokens.bot_followrotate = $("#bot_followrotate").val();
@@ -147,7 +151,7 @@ function instagram_check_form() {
         app.dialog.create({ title: "Warning", text: "Insert competitor username", buttons: [{ text: "OK" }] }).open();
         check_err++;
     } else if (check_err == 0) {
-        check_err += instagram_check_max_like();
+        instagram_check_max_like();
     }
 
     return check_err;
@@ -211,7 +215,7 @@ function instagram_check_bot_mode() {
         $(".bot_mode_desc").html("Bot go to random hashtag from list, like 1 photo and stop X minutes in loop");
         $(".likemode_all").hide();
         $("#bot_superlike_n").val(3);
-        $("#bot_followday").val(300);
+        $("#bot_followday").val(250);
         $("#bot_followrotate").val(30);
         $("#bot_commentsday").val(300);
         $(".likemode_classic").show();
@@ -219,37 +223,37 @@ function instagram_check_bot_mode() {
         $(".bot_mode_desc").html("Bot go to random hashtag from list, like 10-12 photo fast and stop X minutes in loop");
         $(".likemode_all").hide();
         $("#bot_superlike_n").val(3);
-        $("#bot_followday").val(300);
+        $("#bot_followday").val(250);
         $("#bot_followrotate").val(30);
         $("#bot_commentsday").val(300);
         $(".likemode_realistic").show();
     } else if ($("#bot_mode").val() == "likemode_superlike") {
         $(".bot_mode_desc").html("Bot go to random hashtag from list, go to author profile, like 3 (configurable) random photos, return to hashtag list for 10-11 times and stop X minutes in loop");
         $(".likemode_all").hide();
-        $("#bot_followday").val(300);
+        $("#bot_followday").val(250);
         $("#bot_followrotate").val(30);
-        $("#bot_commentsday").val(300);
+        $("#bot_commentsday").val(250);
         $(".likemode_superlike").show();
     } else if ($("#bot_mode").val() == "likemode_competitor_users") {
         $(".bot_mode_desc").html("(Bot go to competitor account, like photos of his followers (10-12 photo fast and stop X minutes in loop))");
         $(".likemode_all").hide();
         $("#bot_superlike_n").val(3);
-        $("#bot_followday").val(300);
+        $("#bot_followday").val(250);
         $("#bot_followrotate").val(30);
-        $("#bot_commentsday").val(300);
+        $("#bot_commentsday").val(250);
         $(".likemode_competitor_users").show();
     } else if ($("#bot_mode").val() == "comment_mode") {
         $(".bot_mode_desc").html("Bot go to random hashtag from list, leave random comments from comments-list");
         $(".likemode_all").hide();
         $("#bot_superlike_n").val(3);
-        $("#bot_followday").val(300);
+        $("#bot_followday").val(250);
         $("#bot_followrotate").val(30);
         $(".comment_mode").show();
     } else if ($("#bot_mode").val() == "fdfmode_classic") {
         $(".bot_mode_desc").html("Bot go to random hashtag from list, follow 30 users fast at 31 defollow first followed (number 1), follow 32, defollow number 2, in loop.");
         $(".likemode_all").hide();
         $("#bot_superlike_n").val(3);
-
+        $("#bot_likeday_max").val($("#bot_followday").val());
         $(".fdfmode_classic").show();
     }
 }
@@ -259,11 +263,8 @@ function instagram_check_hashtag() {
 }
 
 function instagram_check_superlike_n() {
-    if ($("#bot_mode").val() == "likemode_superlike" && (parseInt($("#bot_superlike_n").val() * $("#bot_likeday_max").val()) >= 1000)) {
-        app.dialog.create({ title: "Warning", text: $("#bot_superlike_n").val() + "x" + $("#bot_likeday_max").val() + "= is more than 1000 like/day. App restore default value.", buttons: [{ text: "OK" }] }).open();
-
-        $("#bot_superlike_n").val(3);
-        $("#bot_likeday_max").val(300);
+    if ($("#bot_mode").val() == "likemode_superlike" && (parseInt($("#bot_superlike_n").val() * $("#bot_likeday_max").val()) >= 300)) {
+        app.dialog.create({ title: "Warning", text: $("#bot_superlike_n").val() + "x" + $("#bot_likeday_max").val() + " = is more than 300 like/day. After august 2019 instagram decrease action/daily from 1000 to 300.", buttons: [{ text: "OK" }] }).open();
 
         return 1;
     }
@@ -272,23 +273,13 @@ function instagram_check_superlike_n() {
 }
 
 function instagram_check_max_like() {
-    if ($("#bot_likeday_max").val() != "" && parseInt($("#bot_likeday_max").val()) <= 100) {
-        $("#bot_likeday_max").val(101);
-
-        app.dialog.create({ title: "Warning", text: "Max like/day should be greater than 100 (Min 101). App restore min value.", buttons: [{ text: "OK" }] }).open();
+    if ($("#bot_mode").val() == "likemode_superlike" && (parseInt($("#bot_superlike_n").val() * $("#bot_likeday_max").val()) >= 300)) {
+        app.dialog.create({ title: "Warning", text: $("#bot_superlike_n").val() + "x" + $("#bot_likeday_max").val() + " = is more than 300 like/day. After august 2019 instagram decrease action/daily from 1000 to 300.", buttons: [{ text: "OK" }] }).open();
 
         return 1;
-    } else if ($("#bot_mode").val() == "likemode_superlike" && (parseInt($("#bot_superlike_n").val() * $("#bot_likeday_max").val()) >= 1000)) {
-        app.dialog.create({ title: "Warning", text: $("#bot_superlike_n").val() + "x" + $("#bot_likeday_max").val() + "= is more than 1000 like/day. App restore default value.", buttons: [{ text: "OK" }] }).open();
 
-        $("#bot_superlike_n").val(3);
-        $("#bot_likeday_max").val(300);
-
-        return 1;
-    } else if ($("#bot_likeday_max").val() != "" && parseInt($("#bot_likeday_max").val()) > 1000) {
-        $("#bot_likeday_max").val(900);
-
-        app.dialog.create({ title: "Warning", text: "Instagram ban you if like more than 1000 photos/day. App restore default value.", buttons: [{ text: "OK" }] }).open();
+    } else if ($("#bot_likeday_max").val() != "" && parseInt($("#bot_likeday_max").val()) > 300) {
+        app.dialog.create({ title: "Warning", text: "Instagram ask you to change password if set likes, comments or follow/defollow more than 300/daily. After august 2019 instagram decrease action/daily from 1000 to 300.", buttons: [{ text: "OK" }] }).open();
 
         return 1;
     }
@@ -311,7 +302,7 @@ function instagram_check_likemode_competitor_users() {
 
 function instagram_check_followrotate() {
     if ($("#bot_followrotate").val() > 3000) {
-        app.dialog.create({ title: "Warning", text: "Value is overcapacity, restore default value", buttons: [{ text: "OK" }] }).open();
+        app.dialog.create({ title: "Warning", text: "Value follow rotate is overcapacity, restore default value", buttons: [{ text: "OK" }] }).open();
 
         $("#bot_followrotate").val(30);
 
@@ -322,10 +313,8 @@ function instagram_check_followrotate() {
 }
 
 function instagram_check_followday() {
-    if ($("#bot_followday").val() > 500) {
-        app.dialog.create({ title: "Warning", text: "Value is overcapacity, restore default value", buttons: [{ text: "OK" }] }).open();
-
-        $("#bot_followday").val(300);
+    if ($("#bot_followday").val() > 300) {
+        app.dialog.create({ title: "Warning", text: "Instagram ask you to change password if set likes more than 300follow/daily. After august 2019 instagram decrease action/daily from 1000 to 300.", buttons: [{ text: "OK" }] }).open();
 
         return 1;
     }
@@ -334,10 +323,8 @@ function instagram_check_followday() {
 }
 
 function instagram_check_commentsday() {
-    if ($("#bot_commentsday").val() > 600) {
-        app.dialog.create({ title: "Warning", text: "Value is overcapacity, restore default value", buttons: [{ text: "OK" }] }).open();
-
-        $("#bot_commentsday").val(300);
+    if ($("#bot_commentsday").val() > 1000) {
+        app.dialog.create({ title: "Warning", text: "Value comments/daily is overcapacity. After august 2019 instagram decrease action/daily from 1000 to 300.", buttons: [{ text: "OK" }] }).open();
 
         return 1;
     }
