@@ -1,3 +1,8 @@
+# v0.6.8 (02 December 2019)
+* Limits update: after august 2019 instagram decrease action/daily from 1000 to 300. If bot excede limits? Instagramm will ask you to change the password.
+* Fix: app freeze after start with fdf mode.
+
+
 # v0.6.7 (28 September 2019)
 > Update: [socialmanagertools-igbot v0.9.19](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Upgrade: puppeteer 1.19.0 (chrome v77 required)
