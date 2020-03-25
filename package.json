@@ -1,7 +1,7 @@
 {
     "name": "social-manager-tools",
     "description": "Tools for social media managers",
-    "version": "0.6.8",
+    "version": "0.6.9",
     "main": "main.js",
     "author": "Patryk Rzucidlo [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
     "license": "MIT",
@@ -61,7 +61,7 @@
         "node": ">=7.6.0"
     },
     "devDependencies": {
-        "electron": "^6.0.0",
+        "electron": "latest",
         "electron-builder": "latest",
         "electron-debug": "latest",
         "electron-devtools-installer": "latest",

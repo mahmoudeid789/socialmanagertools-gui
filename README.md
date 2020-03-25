@@ -2,7 +2,7 @@
 
 # 🤖 Social Manager Tools - Desktop App
 
-[![](https://img.shields.io/badge/version-v0.6.8-lightgrey.svg)](https://github.com/social-manager-tools/socialmanagertools-gui/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](#) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://img.shields.io/badge/powered%20by-puppeteer-46aef7.svg)](https://github.com/GoogleChrome/puppeteer) [![](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui/badge.svg)](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui)
+[![](https://img.shields.io/badge/version-v0.6.9-lightgrey.svg)](https://github.com/social-manager-tools/socialmanagertools-gui/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](#) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://img.shields.io/badge/powered%20by-puppeteer-46aef7.svg)](https://github.com/GoogleChrome/puppeteer) [![](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui/badge.svg)](https://snyk.io/test/github/social-manager-tools/socialmanagertools-gui)
 
 > This Desktop Application helps you increase the engagement level of your Social Network profiles through different social algorithms: increase the likes on your photos and followers!
 
@@ -80,11 +80,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4" width="100px;" alt="Patryk Rzucidło"/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-gui/commits?author=ptkdev" title="Code">💻</a></td>
-    <td align="center"><a href="https://twitter.com/maxfer75"><img src="https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/avatar/maxfer75.jpg" width="100px;" alt="MaXfer "/><br /><sub><b>MaXfer </b></sub></a><br /><a href="#design-maxfer75" title="Design">🎨</a></td>
-    <td align="center"><a href="https://twitter.com/tanik72"><img src="https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/avatar/tanik72.jpg" width="100px;" alt="Tanik"/><br /><sub><b>Tanik</b></sub></a><br /><a href="#design-TaniK72" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/Gaudo"><img src="https://avatars1.githubusercontent.com/u/708636?v=4" width="100px;" alt="Francesco Gaudenzi"/><br /><sub><b>Francesco Gaudenzi</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-gui/commits?author=Gaudo" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/NicolaCorvo90"><img src="https://avatars1.githubusercontent.com/u/17699027?v=4" width="100px;" alt="Nicola Corvo"/><br /><sub><b>Nicola Corvo</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-gui/commits?author=NicolaCorvo90" title="Code">💻</a> <a href="https://github.com/ptkdev/socialmanagertools-gui/issues?q=author%3ANicolaCorvo90" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4" width="100px;" alt=""/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-gui/commits?author=ptkdev" title="Code">💻</a></td>
+    <td align="center"><a href="https://twitter.com/maxfer75"><img src="https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/avatar/maxfer75.jpg" width="100px;" alt=""/><br /><sub><b>MaXfer </b></sub></a><br /><a href="#design-maxfer75" title="Design">🎨</a></td>
+    <td align="center"><a href="https://twitter.com/tanik72"><img src="https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/avatar/tanik72.jpg" width="100px;" alt=""/><br /><sub><b>Tanik</b></sub></a><br /><a href="#design-TaniK72" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Gaudo"><img src="https://avatars1.githubusercontent.com/u/708636?v=4" width="100px;" alt=""/><br /><sub><b>Francesco Gaudenzi</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-gui/commits?author=Gaudo" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/NicolaCorvo90"><img src="https://avatars1.githubusercontent.com/u/17699027?v=4" width="100px;" alt=""/><br /><sub><b>Nicola Corvo</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-gui/commits?author=NicolaCorvo90" title="Code">💻</a> <a href="https://github.com/ptkdev/socialmanagertools-gui/issues?q=author%3ANicolaCorvo90" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
