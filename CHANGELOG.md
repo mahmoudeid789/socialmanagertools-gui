@@ -1,4 +1,4 @@
-# v0.6.9 (25 March 2019)
+# v0.6.9 (25 March 2020)
 > Update: [socialmanagertools-igbot v0.9.21](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Upgrade: puppeteer 2.1.1 (chrome v80 required)
 * Fix: likemode_realistic
