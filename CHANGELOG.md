@@ -1,3 +1,8 @@
+# v0.6.9 (30 March 2020)
+> Update: [socialmanagertools-igbot v0.9.22](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
+* Fix: fdfmode_classic
+
+
 # v0.6.9 (25 March 2020)
 > Update: [socialmanagertools-igbot v0.9.21](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Upgrade: puppeteer 2.1.1 (chrome v80 required)

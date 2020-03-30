@@ -36,8 +36,8 @@
     "chrome_options": ["--disable-gpu", "--no-sandbox", "--window-size=1920x1080"],
     "executable_path": "{{executable_path}}",
 
-    "fdfdatabase_path": "{{config_path}}/{{instagram_username}}_database_fdf.db",
-    "logdb_path": "{{config_path}}/{{instagram_username}}_database_logs.db",
+    "fdfdatabase_path": "{{config_path}}/{{instagram_username}}_database_fdf2.db",
+    "logdb_path": "{{config_path}}/{{instagram_username}}_database_logs2.db",
 
     "pin_path":"{{config_path}}/{{instagram_username}}_pin.txt",
     "log_path":"{{config_path}}/{{instagram_username}}_{{bot_mode}}.log",
