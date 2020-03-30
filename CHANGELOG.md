@@ -1,5 +1,5 @@
-# v0.6.9 (30 March 2020)
-> Update: [socialmanagertools-igbot v0.9.22](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
+# v0.6.10 (30 March 2020)
+> Update: [socialmanagertools-igbot v0.9.23](https://github.com/social-manager-tools/socialmanagertools-igbot/blob/master/CHANGELOG.md), changelog:
 * Fix: fdfmode_classic
 
 
